@@ -1,6 +1,4 @@
-package dambi.proiekto.repositorio;
-
-import dambi.proiekto.model.Planta;
+package dambi.proiekto.model;
 
 import java.util.List;
 

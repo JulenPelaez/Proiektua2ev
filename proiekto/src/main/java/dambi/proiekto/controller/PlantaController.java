@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import dambi.proiekto.model.Planta;
-import dambi.proiekto.repositorio.PlantaRepositorio;
+import dambi.proiekto.model.PlantaRepositorio;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 import java.util.List;

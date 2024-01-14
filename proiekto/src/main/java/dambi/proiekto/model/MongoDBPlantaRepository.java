@@ -6,8 +6,6 @@ import com.mongodb.WriteConcern;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoCollection;
 
-import dambi.proiekto.repositorio.PlantaRepositorio;
-
 import org.bson.Document;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +33,7 @@ public class MongoDBPlantaRepository implements PlantaRepositorio {
     @PostConstruct
     void init() {
         // Kolekzioa inizializatzen da aplikazioa hastean
-        plantaCollection = client.getDatabase("prueba").getCollection("prueba", Planta.class);
+        plantaCollection = client.getDatabase("plantas").getCollection("planta", Planta.class);
     }
 
     @Override
